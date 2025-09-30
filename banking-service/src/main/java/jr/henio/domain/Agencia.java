@@ -1,11 +1,16 @@
-package jr.henio.http;
+package jr.henio.domain;
 
-public class AgenciaHttp {
+public class Agencia {
 
+    private Integer id;
     private String nome;
     private String razaoSocial;
     private String cnpj;
-    private SituacaoCadastral situacaoCadastral;
+    private Endereco endereco;
+
+    public Integer getId() {
+        return id;
+    }
 
     public String getNome() {
         return nome;
@@ -19,7 +24,8 @@ public class AgenciaHttp {
         return cnpj;
     }
 
-    public SituacaoCadastral getSituacaoCadastral() {
-        return situacaoCadastral;
+    public Endereco getEndereco() {
+        return endereco;
     }
+
 }

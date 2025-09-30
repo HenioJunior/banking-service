@@ -5,36 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acafbd5d-5418-44a0-89ee-881c3e01b197" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/banking-service/src/main/java/jr/henio/http/AgenciaHttp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-service/src/main/java/jr/henio/http/SituacaoCadastral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-service/src/main/java/jr/henio/http/SituacaoCadastralHttpService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/docker/Dockerfile.jvm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/docker/Dockerfile.legacy-jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/docker/Dockerfile.native" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/docker/Dockerfile.native-micro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jr/henio/GreetingResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jr/henio/MyEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jr/henio/GreetingResourceIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jr/henio/GreetingResourceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/build-analytics-event.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/build-metrics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/import.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/null/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/null/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/quarkus/bootstrap/dev-app-model.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/quarkus/bootstrap/test-app-model.dat" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/banking-service/src/main/java/jr/henio/domain/Agencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banking-service/src/main/java/jr/henio/domain/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-service/src/main/java/jr/henio/http/AgenciaHttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/src/main/java/jr/henio/domain/http/AgenciaHttp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-service/src/main/java/jr/henio/http/SituacaoCadastralHttpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/src/main/java/jr/henio/http/SituacaoCadastralHttpService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,6 +62,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -183,11 +159,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759263720030</updated>
-      <workItem from="1759263721081" duration="333000" />
+      <workItem from="1759263721081" duration="1119000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
